@@ -1,0 +1,26 @@
+{
+  "name": "simple-http-client",
+  "description": "Simple HTTP client",
+  "version": "0.1.0",
+  "author": "Luka Zakrajsek <luka@koofr.net>",
+  "keywords": [
+    "http",
+    "client"
+  ],
+  "homepage": "https://github.com/bancek/simple-http-client",
+  "bugs": "https://github.com/bancek/simple-http-client/issues",
+  "repository": "git://github.com/bancek/simple-http-client",
+  "licenses": [{
+    "type": "MIT"
+  }],
+  "main": "lib/",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "lodash": "*"
+  },
+  "scripts": {
+    "prepublish": "coffee --compile --output lib/ src/"
+  }
+}
