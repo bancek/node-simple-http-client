@@ -20,6 +20,9 @@
   "dependencies": {
     "lodash": "*"
   },
+  "devDependencies": {
+    "coffee-script": "~1.2.0"
+  },
   "scripts": {
     "prepublish": "coffee --compile --output lib/ src/"
   }
