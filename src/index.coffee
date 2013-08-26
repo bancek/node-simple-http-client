@@ -38,7 +38,7 @@ class HttpClient
       method: method
       path: options.path
       headers: options.headers,
-      rejectUnauthorized: options.rejectUnauthorized or yes
+      rejectUnauthorized: rejectUnauthorized
 
     if options.json?
       reqOptions.headers['content-type'] = 'application/json'
